@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3332",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 3332",
     "lint": "next lint"
   },
   "dependencies": {
@@ -23,6 +23,7 @@
     "@types/react-dom": "18.0.6",
     "eslint": "8.23.1",
     "eslint-config-next": "12.3.0",
+    "graphql": "^16.6.0",
     "typescript": "4.8.3"
   }
 }
